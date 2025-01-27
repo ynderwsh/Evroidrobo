@@ -1,0 +1,309 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+body{
+    background-image: url(../images/background.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFF;
+    background-color: black;
+    font-family: "Poppins", serif;
+    font-weight: 300;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.container{
+    max-width: 1350px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.header__inner{
+    justify-content: space-between;
+    display: flex;
+    
+    align-items: center;
+}
+
+.header__inner-logo{
+    font-size: 32px;
+    color: #FFF;
+    font-family: "Orbitron", serif;
+    font-style: normal;
+}
+
+.header__inner-pages{
+    font-size: 14px;
+    font-family: "Orbitron", serif;
+    font-style: normal;
+}
+
+.main_page{
+    color: #8A35F2;
+}
+
+.inner-page{
+    gap: 45px;
+    justify-content: space-between;
+    display: flex;
+    padding-left: 220px;
+}
+
+.contact-now{
+    background-color: #8A35F2;
+    color: #FFF;
+    padding: 17px 30px;
+    font-family: "Orbitron", serif;
+    font-style: normal;
+}
+
+.contact-now:hover{
+    cursor: pointer;
+    background-color: black;
+}
+
+  
+.footer{
+  background-color: #8A35F2;
+}
+
+.footer__inner-item{
+    padding-top: 60px;
+    display: flex;
+}
+
+.logo__link-footer{
+    font-family: "Orbitron", serif;
+    font-style: normal;
+    font-size: 32px;
+}
+
+.footer__block-text{
+    max-width: 333px;
+    font-size: 16px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.footer__inner-2{
+    display: block;
+}
+.footer_link{
+    display: grid;
+    gap: 12px;
+    max-width: 80px;
+}
+
+.menu__link-main{
+    padding-right:80px ;
+    font-weight: 800; 
+    font-size: 24px; 
+    font-family: "Orbitron", serif;
+    font-style: normal;
+}
+
+.menu__link{
+    font-size: 16px; 
+}
+
+
+.footer__menu{
+    padding-left: 80px;
+}
+
+.footer__inner-3{
+    font-weight: 800;
+    font-size: 28px;
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+    color: #FFF;
+}
+.input-container input {
+    background: #FFF;
+    color: #FFF;
+    width: 100%;
+    padding: 21px 168px 21px 18px; 
+    border: none;
+    font-size: 17px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+.input-container button {
+    position: absolute;
+    right: 1px;
+    text-transform: uppercase;
+    top: 15%;
+    transform: translateY(34%);
+    background-color: #8A35F2;
+    color: #FFF;
+    padding: 17px 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Orbitron", serif;
+    font-style: normal;
+    margin-top: 15px;
+}
+.input-container button:hover {
+    background-color: #000;
+    color: #FFF;
+}
+
+
+.footer__inner-3{
+    padding-bottom: 50px;
+}
+
+.footer__menu-5{
+    padding-left: 50px;
+}
+
+.footer__diskription{
+    padding-bottom: 12px;
+    font-size: 16px;
+    font-family: "Orbitron", serif;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+}
+
+.quick-line{
+    border-top: 2px solid #FFF; 
+    margin: 15px 0 25px 0; 
+    width: 50px;  
+}
+
+
+.line {
+    border-top: 1px solid #FFF; 
+    margin: 80px 0 12px 0; 
+    width: 100%;
+}
+.backgroun_social{
+    background-color: #FFF;
+    padding: 18px 10px 9px 15px;
+    margin-right: 25px;
+}
+
+.newsletter__block-text{
+    max-width:358px ;
+}
+.bold{
+    font-weight: bold;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*home*/
+
+.empowering__inner{
+    display: flex;
+}
+
+.title_text{
+    max-width: 615px;
+    font-size: 62px;
+    padding-top: 205px;
+}
+
+
+.basic_text{
+    max-width: 615px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+
+.empowering_image__inner-section{
+    padding-top: 128px;
+    padding-left: 90px;
+    display: flex; /* или flex */
+    position: relative;
+    height: 550px;
+}
+
+.our_solution{
+    font-family: "Orbitron", serif;
+    font-style: normal;
+    margin-top: 360px;
+    margin-left: -199px;
+}
+
+.image-solution{
+    padding-top: 25px;
+    padding-bottom: 8px;
+}
+
+
+.our_solution-name{
+    font-size: 18px;
+}
+
+.our_solution-title{
+    font-weight: 700;
+    font-size: 24px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+}
+
+.our_solution-text{
+    padding-bottom: 20px;
+    font-weight: 100;
+    font-family: "Poppins", serif;
+}
+
+.background{
+    background-color: rgb(255 255 255 / 20%);
+    backdrop-filter: blur(5px);
+    max-width: 350px;
+    max-height: 300px;
+    padding-left: 25px;
+}
+
+.read-more{
+    margin-bottom: 20px;
+}
+
+
+
+
+.benefits__inner-image{
+    padding-top: 209px;
+}
+
+.mini-robot__2{
+    padding-bottom: 12px;
+    font-size: 16px;
+    font-family: "Orbitron", serif;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+}
