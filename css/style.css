@@ -22,6 +22,9 @@ ul{
     list-style-type: none;
 }
 
+button{
+    text-transform: uppercase;
+}
 .container{
     max-width: 1350px;
     margin: 0 auto;
@@ -293,10 +296,55 @@ a{
 }
 
 
+.quickest-section{
+    background-image: url(../images/home/background-sec.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1820px;
+    margin: 0 auto;
+    margin-top: 134px;
+}
 
+.quickest_title{
+    padding-top: 200px;
+    text-align: center;
+    font-size: 52px;
+    font-family: "Orbitron", serif;
+    padding-bottom: 10px;
+    max-width: 1216px;
+}
+
+.quickest_text{
+    padding-bottom: 45px;
+    font-weight: 200;
+    max-width: 864px;
+}
+
+.quickest-now{
+    margin-bottom: 220px;
+}
+
+
+.quickest__inner{
+    justify-items: center;
+}
+
+
+
+.benefits_title{
+    font-size: 42px;
+    font-family: "Orbitron", serif;
+}
+
+.benefits_text{
+    max-width: 638px;
+    text-align: center;
+    padding-top: 10px;
+}
 
 .benefits__inner-image{
     padding-top: 209px;
+    justify-items: center;
 }
 
 .mini-robot__2{
@@ -306,4 +354,97 @@ a{
     font-style: normal;
     display: flex;
     justify-content: center;
+}
+
+.benefits_galery{
+    display: flex;
+    align-items: end;
+    padding-top: 50px;
+    gap: 30px;
+}
+
+.benefits_galery-disk{
+    margin-top: -62px;
+    margin-left: 15px;
+    padding-bottom: 100px;
+    font-size: 20px;
+}
+
+.view-more{
+    justify-items: center;
+}
+
+
+.strategy__inner-image{
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 15px;
+}
+
+.strategy__disk{
+    padding-top: 60px;
+    padding-left: 40px;
+}
+
+.strategy_title{
+    font-size: 42px;
+    font-family: "Orbitron", serif;
+    padding-bottom: 10px;
+}
+
+.strategy_text{
+    padding-bottom: 6px;
+    font-weight: 200;
+}
+
+
+.provide_galery{
+    display: flex;
+    padding-top: 50px;
+    gap: 30px;
+}
+
+.system_galery-img{
+    margin-top: -156px;
+    margin-left: 30px;
+    padding-bottom: 113px;
+}
+
+.system_galery-disk{
+    margin-top: -85px;
+    margin-left: 30px;
+    padding-bottom: 100px;
+    font-size: 24px;
+    font-family: "Orbitron", serif;
+    max-width: 200px;
+}
+
+.system_galery-img2{
+    margin-top: -308px;
+    margin-left: 30px;
+    padding-bottom: 260px;
+}
+.predictive_galery-disk{
+    margin-top: -248px;
+    margin-left: 30px;
+    padding-bottom: 301px;
+    font-size: 24px;
+    font-family: "Orbitron", serif;
+    max-width: 200px;
+}
+.predictives_galery-text{
+    margin-top: -276px;
+    margin-left: 30px;
+    padding-bottom: 47px;
+    max-width: 248px;
+}
+.read-predictive{
+    margin-top: -85px;
+    margin-left: 30px;
+}
+
+.system_galery-img3, .system_galery-img4{
+    margin-top: -276px;
+    margin-left: 30px;
+    padding-bottom: 105px;
 }
