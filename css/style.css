@@ -248,7 +248,7 @@ a{
 .empowering_image__inner-section{
     padding-top: 128px;
     padding-left: 90px;
-    display: flex; /* или flex */
+    display: flex;
     position: relative;
     height: 550px;
 }
@@ -447,4 +447,173 @@ a{
     margin-top: -276px;
     margin-left: 30px;
     padding-bottom: 105px;
+}
+
+
+
+.furture_today{
+    font-family: "Orbitron", serif;
+    font-size: 20px;
+}
+
+
+
+.left-future, .right-future{
+    display: flex; 
+    position: relative;
+}
+
+.quality-service{
+    margin-top: -675px;
+    margin-left: 60px;
+    column-count: 2;
+}
+
+.future_title{
+    text-align: end;
+    width: 174px;
+}
+
+.future_img{
+    margin-left: 27px;
+}
+
+.skills-services{
+    margin-top: -489px;
+    margin-left: -451px;
+    column-count: 2; 
+}
+
+.excellent-support{
+    margin-top: -304px;
+    margin-left: -330px;
+    column-count: 2; 
+}
+
+.future3_title{
+    text-align: end;
+    width: 217px;
+}
+
+.benefits__inner-image-1{
+    justify-items: center;
+}
+
+.team-members{
+    margin-top: -675px;
+    padding-left: 905px;
+    column-count: 2;
+}
+
+.for-clients{
+    margin-top: -489px;
+    margin-left: -218px;
+    column-count: 2; 
+}
+
+.quality-management{
+    margin-top: -304px;
+    margin-left: -375px;
+    column-count: 2; 
+}
+
+.right_title{
+     width: 200px;
+     margin-left: -60px;
+}
+.Quality_title{
+    width: 239px;
+    margin-left: -80px;
+}
+
+
+
+.section-rew{
+    padding-top: 20px;
+}
+
+
+
+.review__inner__items{
+    column-count: 3;
+    column-gap: 30px;
+}
+
+.profile__first-layer{
+    column-count: 2;
+}
+
+.profile-review{
+    font-weight: 300;
+    color: #FFF;
+    max-width: 340px;
+    text-align: justify;
+    padding-right: 45px;
+}
+
+.profile-img{
+    padding-top: 45px;
+}
+.review_title{
+    padding-bottom: 50px;
+    max-width: 570px;
+    padding-top: 10px;
+    font-weight: 100;
+}
+.profile-name{
+    max-width: 101px;
+    padding-top: 70px;
+    margin-left: -60px;
+    padding-bottom: 40px;
+    font-size: 20px;
+    font-family: "Orbitron", serif;
+}
+
+.profile-raiting{
+    padding-top: 25px;
+    padding-bottom: 45px;
+}
+
+.stars-raiting{
+    padding-bottom: 45px;
+}
+
+.review{
+    padding-left: 45px;
+    padding-bottom: 45px;
+    background-color: rgb(255 255 255 / 10%);
+    backdrop-filter: blur(5px);
+    max-width: 350px;
+    max-height: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+.system_galery-disk-title{
+    margin-top: -90px;
+    margin-left: 40px;
+    padding-bottom: 100px;
+    font-size: 20px;
+    font-family: "Orbitron", serif;
+    max-width: 50px;
+    text-align: center;
+}
+
+.system_galery-disky-text{
+    margin-top: -140px;
+    margin-left: 130px;
+    padding-bottom: 100px;
+    font-size: 24px;
+    font-family: "Orbitron", serif;
+    max-width: 500px;
+}
+.view-more-end{
+    margin-bottom: 120px;
 }
