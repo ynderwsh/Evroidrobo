@@ -295,7 +295,6 @@ a{
     margin-bottom: 20px;
 }
 
-
 .quickest-section{
     background-image: url(../images/home/background-sec.png);
     background-size: cover;
@@ -328,8 +327,6 @@ a{
 .quickest__inner{
     justify-items: center;
 }
-
-
 
 .benefits_title{
     font-size: 42px;
@@ -449,14 +446,10 @@ a{
     padding-bottom: 105px;
 }
 
-
-
 .furture_today{
     font-family: "Orbitron", serif;
     font-size: 20px;
 }
-
-
 
 .left-future, .right-future{
     display: flex; 
@@ -526,13 +519,9 @@ a{
     margin-left: -80px;
 }
 
-
-
 .section-rew{
     padding-top: 20px;
 }
-
-
 
 .review__inner__items{
     column-count: 3;
@@ -587,15 +576,6 @@ a{
     max-height: 300px;
 }
 
-
-
-
-
-
-
-
-
-
 .system_galery-disk-title{
     margin-top: -90px;
     margin-left: 40px;
@@ -616,4 +596,195 @@ a{
 }
 .view-more-end{
     margin-bottom: 120px;
+}
+
+
+
+
+
+/*about*/
+
+.about__inner{
+    font-size: 42px;
+    font-family: "Orbitron", serif;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+
+}
+
+.hand{
+    position: absolute;
+    right: 1px;
+    top: 20%;
+    font-style: normal;
+}
+
+
+
+
+.strategy__inner-image {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 15px;
+}
+.strategy__disk {
+    padding-top: 60px;
+    padding-left: 40px;
+}
+.mini-robot__1-about{
+    padding-bottom: 12px;
+    display: flex;
+    justify-content: center;
+}
+.strategy_title {
+    font-size: 42px;
+    font-family: "Orbitron", serif;
+    padding-bottom: 10px;
+}
+.strategy_text {
+    padding-bottom: 6px;
+    font-weight: 200;
+}
+
+.choose_title{
+    font-size: 20px;
+    font-family: "Orbitron", serif;
+    padding-top: 16px;
+    text-align: center;
+    padding-bottom: 67px;
+}
+
+.choose_title_number{
+    font-size: 36px;
+    font-family: "Orbitron", serif;
+    color: #8A35F2;
+    padding-top: 16px; 
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.choose__trusted-img{
+    padding-top: 57px;
+    padding-left: 118px;
+    padding-right: 118px;
+} 
+
+.choose__trusted-partners{
+    background-color: rgb(255 255 255 / 10%);
+    backdrop-filter: blur(5px);
+    max-width: 350px;
+    max-height: 300px;
+}
+
+.choose__inner-info{
+    display: flex; 
+    position: relative;
+    column-gap: 30px;
+    max-width: 600px;
+}
+
+.choose_text{
+    display: flex; 
+    position: relative;
+    column-gap: 30px;
+    max-width: 600px;
+    padding-bottom: 40px;
+}
+.choose__info-container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.img-rob{
+    display: flex; 
+    padding-top: 100px;
+    justify-content: center;
+}
+
+.deliver_tittle{
+    padding-top: 100px;
+    font-size: 42px;
+    font-family: "Orbitron", serif;
+    padding-bottom: 10px;
+    max-width: 877px;  
+}
+.deliver_tittle_2{
+    font-size: 42px;
+    font-family: "Orbitron", serif;
+    padding-bottom: 10px;
+    max-width: 877px; 
+}
+
+.deliver_text{
+    padding-bottom: 45px;
+    font-weight: 200;
+    max-width: 808px;
+}
+
+.deliver-section{
+    background-image: url(../images/about/deliver_back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1820px;
+    margin: 0 auto;
+    margin-top: 134px;
+}
+
+.deliver__inner_section{
+    display: flex; 
+    position: relative;  
+}
+.deliver__robot{
+    position: absolute;
+    top: -50px;
+    left: 900px;
+}
+
+
+
+.empowering__inner{
+    display: flex; 
+    position: relative;
+    gap: 60px;
+    padding-top: 180px; 
+    padding-bottom: 100px; 
+}
+
+.empowering__inner-section{
+    padding-top: 81px;
+}
+
+.empowering_tittle{
+    font-size: 42px;
+    font-family: "Orbitron", serif;
+    padding-bottom: 10px;
+    max-width: 877px; 
+}
+
+.empowering_text{
+    padding-bottom: 45px;
+    font-weight: 200;
+    max-width: 584px;
+    line-height: 1.2;
+}
+
+.empowering_keep_tittle{
+    font-size: 20px;
+    font-family: "Orbitron", serif;
+    padding-bottom: 5px;
+    padding-top: 18px;
+}
+
+.smart_solutions{
+    padding-bottom: 30px;
+}
+
+.certified_expert, .smart_solutions{
+    display: flex; 
+    position: relative;
+    gap: 20px;
 }
