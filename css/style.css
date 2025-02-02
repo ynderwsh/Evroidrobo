@@ -880,3 +880,143 @@ a{
     width: 430px;
     margin-bottom: 120px;
 }
+
+
+/* Gallery */
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    min-height: 150px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Blog */
+
+
+.blog__title-text{
+    font-family: "Orbitron", serif;
+    font-style: normal;
+    justify-content: space-around;
+    display: flex;
+}
+
+.blog__title{
+    margin-top: 130px;
+    margin-left: 10px;
+    padding-bottom: 100px;
+    max-width: 50px;
+    text-align: center;
+    z-index: 1;
+}
+.blog_text{
+    margin-top: 125px;
+    padding-bottom: 100px;
+    font-size: 20px;
+    max-width: 305px;
+}
+
+.background_blog-img{
+    position: absolute;
+    padding-top: 107px;
+    z-index: 1;
+    margin-left: -317px;
+}
+
+.first_blog-1page{
+    background-image: url(../images/blog/1-rob.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 480px;
+    width: 430px;
+    padding-left: 20px;
+    padding-top: 275px;
+}
+
+
+
+.second_blog-1page{
+    background-image: url(../images/blog/2-rob.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 480px;
+    width: 430px;
+    padding-left: 20px;
+    padding-top: 275px;
+}
+
+.third_blog-1page{
+    background-image: url(../images/blog/3-rob.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 480px;
+    width: 430px;
+    padding-left: 20px;
+    padding-top: 275px;
+}
+.fourth_blog-1page{
+    background-image: url(../images/blog/4-rob.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 480px;
+    width: 430px;
+    padding-left: 20px;
+    padding-top: 275px;
+}
+.fifth_blog-1page{
+    background-image: url(../images/blog/5-rob.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 480px;
+    width: 430px;
+    padding-left: 20px;
+    padding-top: 275px;
+}
+.sixth_blog-1page{
+    background-image: url(../images/blog/6-rob.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 480px;
+    width: 430px;
+    padding-left: 20px;
+    padding-top: 275px;
+}
+
+
+.selection_page-blog{
+    display: flex;
+    justify-content: center;
+    gap:15px;
+    padding-bottom: 120px;
+    padding-top: 40px;
+}  
+   
+.selection_page-blog button{
+    font-size: 20px;
+    padding: 15px 25px;
+    font-family: "Orbitron", serif;
+    background-color: transparent;
+    border: none;
+    color:#8A35F2;
+    cursor: pointer;
+}
+    
+.backgound__button button{
+    color: #FFF;
+    margin-right: 15px;
+}
