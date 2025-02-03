@@ -5,8 +5,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Функция для перехода на страницу
   function goToPage(page) {
+    let pageUrl = `blog-${page}.html`; // Формируем URL blog-1, blog-2, blog-3
     localStorage.setItem("selectedPage", page); // Сохраняем текущую страницу
-    window.location.href = `page${page}.html`; // Переход
+    window.location.href = pageUrl; // Переход
   }
 
   // Вешаем обработчик на каждую кнопку
@@ -23,7 +24,9 @@ document.addEventListener("DOMContentLoaded", function () {
     if (savedPage) {
       buttons.forEach(button => {
         if (button.getAttribute("data-page") === savedPage) {
-          button.style.backgroundColor = "#8A35F2";
+          button.style.backgroundColor = "#8A35F2"; // Делаем кнопку зелёной
+        } else {
+          button.style.backgroundColor = ""; // Сбрасываем цвет
         }
       });
     }
@@ -35,14 +38,38 @@ document.addEventListener("DOMContentLoaded", function () {
   prevButton.addEventListener("click", function () {
     let currentPage = parseInt(localStorage.getItem("selectedPage")) || 1;
     if (currentPage > 1) {
-      goToPage(currentPage - 1);
+      goToPage((currentPage - 1).toString());
     }
   });
 
   nextButton.addEventListener("click", function () {
     let currentPage = parseInt(localStorage.getItem("selectedPage")) || 1;
     if (currentPage < 3) {
-      goToPage(currentPage + 1);
+      goToPage((currentPage + 1).toString());
     }
+  });
+});
+
+
+
+
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  const menuButton = document.querySelector(".menu-button");
+  const dropdown = document.querySelector(".dropdown");
+
+  menuButton.addEventListener("click", function (event) {
+      event.stopPropagation(); // Остановить всплытие
+      dropdown.style.display = dropdown.style.display === "block" ? "none" : "block";
+  });
+
+  document.addEventListener("click", function () {
+      dropdown.style.display = "none";
+  });
+
+  dropdown.addEventListener("click", function (event) {
+      event.stopPropagation(); // Остановить закрытие при клике внутри меню
   });
 });

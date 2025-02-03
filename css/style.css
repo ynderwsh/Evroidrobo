@@ -1020,3 +1020,330 @@ a{
     color: #FFF;
     margin-right: 15px;
 }
+
+
+
+
+.blog-2__sections{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.first_blog-2page{
+    background-image: url(../images/blog/blog-2/rob-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 660px;
+    padding-left: 20px;
+    padding-top: 275px;
+}
+.second_blog-2page{
+    background-image: url(../images/blog/blog-2/rob-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 660px;
+    padding-left: 20px;
+    padding-top: 275px;
+}
+.third_blog-2page{
+    background-image: url(../images/blog/blog-2/rob-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 660px;
+    padding-left: 20px;
+    padding-top: 275px;
+}
+.fourth_blog-2page{
+    background-image: url(../images/blog/blog-2/rob-4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 660px;
+    padding-left: 20px;
+    padding-top: 275px;
+}
+.fifth_blog-2page{
+    background-image: url(../images/blog/blog-2/rob-5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 660px;
+    padding-left: 20px;
+    padding-top: 275px;
+}
+.sixth_blog-2page{
+    background-image: url(../images/blog/blog-2/rob-6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 660px;
+    padding-left: 20px;
+    padding-top: 275px;
+}
+
+
+
+.blog__title-text-2page{
+    font-family: "Orbitron", serif;
+    font-style: normal;
+    display: flex;
+}
+
+
+.blog__title-2page{
+    margin-top: 150px;
+    margin-left: 20px;
+    max-width: 50px;
+    text-align: center;
+    font-size: 20px;
+    width: 80px;
+    height: 80px;
+    z-index: 1;
+}
+
+.blog_text-2page{
+    padding-left: 30px;
+    margin-top: 150px;
+    padding-bottom: 100px;
+    max-width: 539px;
+    font-size: 24px;
+}
+
+.background_blog-img-2page{
+    position: absolute;
+    padding-top: 133px;
+    z-index: 1;
+    margin-left: 8px;
+}
+
+
+/*BLog 3*/
+
+
+
+.first_blog-3page{
+    background-image: url(../images/blog/blog-3/rob-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 1350px;
+    padding-left: 20px;
+    padding-top: 275px;
+    margin-bottom: 20px;
+}
+.second_blog-3page{
+    background-image: url(../images/blog/blog-3/rob-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 1350px;
+    padding-left: 20px;
+    padding-top: 275px;
+    margin-bottom: 20px;
+}
+.third_blog-3page{
+    background-image: url(../images/blog/blog-3/rob-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 1350px;
+    padding-left: 30px;
+    padding-top: 275px;
+    margin-bottom: 20px;
+}
+.fourth_blog-3page{
+    background-image: url(../images/blog/blog-3/rob-4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 1350px;
+    padding-left: 20px;
+    padding-top: 275px;
+}
+
+
+.blog-3__sections{
+    gap: 30px;
+}
+
+
+
+
+.blog__title-text-3page{
+    font-family: "Orbitron", serif;
+    font-style: normal;
+    display: flex;
+}
+
+
+.blog__title-3page{
+    margin-top: 150px;
+    margin-left: 20px;
+    max-width: 50px;
+    text-align: center;
+    font-size: 20px;
+    width: 80px;
+    height: 80px;
+    z-index: 1;
+}
+
+.blog_text-3page{
+    padding-left: 30px;
+    margin-top: 150px;
+    padding-bottom: 100px;
+    max-width: 964px;
+    font-size: 24px;
+}
+
+.background_blog-img-3page{
+    position: absolute;
+    padding-top: 133px;
+    z-index: 1;
+    margin-left: 8px;
+}
+
+
+
+
+
+
+
+.menu-container {
+    position: relative;
+    display: inline-block;
+}
+  
+  .menu-button {
+    background-color: transparent;
+    color: white;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    text-transform: none;
+    font-family: "Orbitron", serif;
+    font-style: normal;
+    text-align: top;
+    margin-top: -10px;
+  }
+
+  
+  .main_page{
+    color: #8A35F2;
+  }
+
+  .dropdown {
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    background: #3F2E98;
+    border-radius: 5px;
+    min-width: 100px;
+    overflow: hidden;
+  }
+  
+  .dropdown a {
+    display: block;
+    padding: 10px;
+    color: #FFF;
+    text-decoration: none;
+    transition: background 0.3s;
+  }
+  
+  .dropdown a:hover {
+    background: #8A35F2;
+    border: 1px solid black;
+    
+    color: white;
+  }
+  
+  .menu-container:hover .dropdown {
+    display: block;
+  }
+
+
+/*Team*/
+
+.team__inner-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    font-family: "Orbitron", serif;
+    font-style: normal;
+}
+
+.blur__team{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(138, 53, 242, 0.3);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+.name_pers{
+    display: flex;
+    align-items: flex-end;
+}
+.background__team-1_personal{
+    background-image: url(..//images/pages/team/team-1.png);
+    width: 430px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.background__team-2_personal{
+    background-image: url(..//images/pages/team/team-2.png);
+    width: 430px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.background__team-3_personal{
+    background-image: url(..//images/pages/team/team-3.png);
+    width: 430px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.background__team-4_personal{
+    background-image: url(..//images/pages/team/team-4.png);
+    width: 430px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.background__team-5_personal{
+    background-image: url(..//images/pages/team/team-5.png);
+    width: 430px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.background__team-6_personal{
+    background-image: url(..//images/pages/team/team-6.png);
+    width: 430px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+
+
+
+
