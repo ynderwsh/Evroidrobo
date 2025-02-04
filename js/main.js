@@ -73,3 +73,20 @@ document.addEventListener("DOMContentLoaded", function () {
       event.stopPropagation(); // Остановить закрытие при клике внутри меню
   });
 });
+
+
+document.querySelectorAll('.accordion-header').forEach(button => {
+  button.addEventListener('click', function() {
+      const panel = this.nextElementSibling;
+      const img = this.querySelector('img');
+      const isActive = panel.style.display === 'block';
+      
+      document.querySelectorAll('.panel').forEach(p => p.style.display = 'none');
+      document.querySelectorAll('.accordion-header img').forEach(img => img.src = 'images/plus.svg'); 
+      
+      if (!isActive) {
+          panel.style.display = 'block';
+          img.src = 'images/minus.svg'; 
+      }
+  });
+});
